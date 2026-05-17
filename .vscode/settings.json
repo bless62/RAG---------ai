@@ -1,0 +1,24 @@
+{
+    "python.defaultInterpreterPath": "d:\\VscodeProjects\\ai_project01\\.venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& 'd:\\VscodeProjects\\ai_project01\\.venv\\Scripts\\Activate.ps1'"
+            ]
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": [
+                "/K",
+                "d:\\VscodeProjects\\ai_project01\\.venv\\Scripts\\activate.bat"
+            ]
+        }
+    },
+    "python.languageServer": "None"
+}
